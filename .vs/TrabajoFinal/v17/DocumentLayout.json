@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ALOCADA\\v1-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\Vidas.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\Vidas.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\Shotgun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\Shotgun.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\Pozo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\Pozo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\Juego.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\Juego.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\EnemigoFinal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\EnemigoFinal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\BalaEnemiga.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\BalaEnemiga.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\Bala.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\Bala.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\Aliado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\Aliado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|D:\\ALOCADA\\v1-main\\TrabajoFinal\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ACF2838B-F976-4ACF-B94E-E5BCA3DD194E}|TrabajoFinal\\TrabajoFinal.vcxproj|solutionrelative:TrabajoFinal\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemigoFinal.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\EnemigoFinal.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\EnemigoFinal.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\EnemigoFinal.h",
+              "RelativeToolTip": "TrabajoFinal\\EnemigoFinal.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:59:34.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Aliado.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Aliado.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Aliado.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Aliado.h",
+              "RelativeToolTip": "TrabajoFinal\\Aliado.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:59:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Juego.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Juego.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Juego.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Juego.h",
+              "RelativeToolTip": "TrabajoFinal\\Juego.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:36:37.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Menu.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Menu.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Menu.h",
+              "RelativeToolTip": "TrabajoFinal\\Menu.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:36:29.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vidas.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Vidas.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Vidas.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Vidas.h",
+              "RelativeToolTip": "TrabajoFinal\\Vidas.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:31:14.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shotgun.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Shotgun.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Shotgun.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Shotgun.h",
+              "RelativeToolTip": "TrabajoFinal\\Shotgun.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:31:14.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pozo.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Pozo.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Pozo.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Pozo.h",
+              "RelativeToolTip": "TrabajoFinal\\Pozo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:31:13.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BalaEnemiga.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\BalaEnemiga.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\BalaEnemiga.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\BalaEnemiga.h",
+              "RelativeToolTip": "TrabajoFinal\\BalaEnemiga.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:31:06.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bala.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Bala.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Bala.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\Bala.h",
+              "RelativeToolTip": "TrabajoFinal\\Bala.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T15:31:05.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyForm.h",
+              "DocumentMoniker": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\MyForm.h",
+              "RelativeDocumentMoniker": "TrabajoFinal\\MyForm.h",
+              "ToolTip": "D:\\ALOCADA\\v1-main\\TrabajoFinal\\MyForm.h",
+              "RelativeToolTip": "TrabajoFinal\\MyForm.h",
+              "ViewState": "AQIAALUAAAAAAAAAAAAAAL8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-02T20:58:52.181Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

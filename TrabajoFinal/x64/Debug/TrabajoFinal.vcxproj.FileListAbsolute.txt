@@ -1,0 +1,9 @@
+D:\Algoritmos\Semana 12\TrabajoFinal\TrabajoFinal\x64\Debug\TrabajoFinal.vcxproj.AssemblyReference.cache
+D:\Algoritmos\Semana 12\TrabajoFinal\TrabajoFinal\x64\Debug\TrabajoFinal.MyForm.resources
+D:\Algoritmos\Semana 12\TrabajoFinal\TrabajoFinal\x64\Debug\TrabajoFinal.vcxproj.GenerateResource.cache
+D:\TrabajoFinal-main\TrabajoFinal-main\TrabajoFinal\x64\Debug\TrabajoFinal.vcxproj.AssemblyReference.cache
+D:\TrabajoFinal-main\TrabajoFinal-main\TrabajoFinal\x64\Debug\TrabajoFinal.MyForm.resources
+D:\TrabajoFinal-main\TrabajoFinal-main\TrabajoFinal\x64\Debug\TrabajoFinal.vcxproj.GenerateResource.cache
+D:\ALOCADA\v1-main\TrabajoFinal\x64\Debug\TrabajoFinal.vcxproj.AssemblyReference.cache
+D:\ALOCADA\v1-main\TrabajoFinal\x64\Debug\TrabajoFinal.MyForm.resources
+D:\ALOCADA\v1-main\TrabajoFinal\x64\Debug\TrabajoFinal.vcxproj.GenerateResource.cache
