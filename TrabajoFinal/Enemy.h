@@ -3,7 +3,7 @@
 class Enemy :  public Entidad
 {
 private:
-	int direccion;
+	int direccion; 
 public:
 	Enemy(int x, int y, int direccion);
 	void mover(Graphics^ canvas);

@@ -16,15 +16,15 @@ Juego::Juego(int width, int height)
     escopeta = new Shotgun(0, 0);
     Random r;
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 2; i++) // crear mas enemigos
     {
-        int direccion = r.Next(1, 4);
+        int direccion = r.Next(1, 4); // 1  2  3
         int PosicionX = r.Next(0, width - 102);
         int PosicionY = r.Next(0, height - 102);
         enemigos.push_back(new Enemy(PosicionX, PosicionY, direccion));
     }
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 2; i++)
     {
         int PosicionX = r.Next(0, width - 120);
         int PosicionY = r.Next(0, height - 100);
@@ -53,13 +53,17 @@ void Juego::mostrarGanaste(Graphics^ canvas)
     pantallaGanadora->mostrar(canvas);  
 }
 
+void Juego::mostrarCreditos(Graphics^ canvas)
+{
+    creditos = new PantallaCreditos();
+    creditos->mostrar(canvas); 
+}
+
 void Juego::mostrarPerdiste(Graphics^ canvas)
 {
     pantallaPerdedora = new PantallasPerder();
     pantallaPerdedora->mostrar(canvas);
 }
-
-
 
 void Juego::mostrar(Graphics^ canvas)
 {
@@ -121,6 +125,7 @@ void Juego::mover(Graphics^ canvas)
             aliado = nullptr;
         }
     }
+
     for (int i = 0; i < totalEnemigos; i++) {
         enemigos[i]->mover(canvas);
 
@@ -129,6 +134,7 @@ void Juego::mover(Graphics^ canvas)
             player->setX(10);
             player->setY(150);
             player->setVidas(player->getVidas() - 1);  
+
             int VarApoyoDeLaUltimaVidaParaBorrar = vidas.size() - 1;  
             if (VarApoyoDeLaUltimaVidaParaBorrar > -1)  
             {
@@ -213,10 +219,10 @@ void Juego::mover(Graphics^ canvas)
     {
         if (player->hayColision(pozos[i]))
         {
-            estaEnPozo = true;
+            estaEnPozo = true; 
             if (segundos == 4)
             {
-                delete pozos[i];
+                delete pozos[i]; 
                 pozos.erase(pozos.begin() + i);
             }
         }

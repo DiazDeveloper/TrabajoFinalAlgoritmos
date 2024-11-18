@@ -12,6 +12,7 @@
 #include "Pantallas.h"
 #include "Vidas.h"
 #include "PantallaPerder.h"
+#include "PantallaCreditos.h"
 #include <vector>
 
 class Juego
@@ -26,6 +27,7 @@ private:
 	Shotgun* escopeta;
 	EnemigoFinal* enemigoFinal;  
 	Aliado* aliado;  
+	PantallaCreditos* creditos;
 	vector <Bala*> balas; 
 	vector <Enemy*> enemigos; 
 	vector <Pozo*> pozos;
@@ -37,6 +39,7 @@ public:
 	void mostrarMenu(Graphics^ canvas);
 	void mostrarGanaste(Graphics^ canvas);
 	void mostrarPerdiste(Graphics^ canvas);
+	void mostrarCreditos(Graphics^ canvas); 
 	void mostrar(Graphics^ canvas); 
 	void mover(Graphics^ canvas);
 	void moverTeclas(Graphics^ canvas, Movimiento movimiento);

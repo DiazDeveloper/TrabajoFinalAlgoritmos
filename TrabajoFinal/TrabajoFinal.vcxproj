@@ -129,6 +129,7 @@
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="MenuInicio.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="PantallaCreditos.cpp" />
     <ClCompile Include="PantallaPerder.cpp" />
     <ClCompile Include="Pantallas.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="PantallaCreditos.h" />
     <ClInclude Include="PantallaPerder.h" />
     <ClInclude Include="Pantallas.h" />
     <ClInclude Include="Player.h" />

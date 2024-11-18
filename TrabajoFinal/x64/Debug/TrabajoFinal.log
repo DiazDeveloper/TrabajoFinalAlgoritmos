@@ -1,47 +1,10 @@
-﻿  Aliado.cpp
-  Background.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\Background.cpp(10,35): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Background.cpp(11,34): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  Bala.cpp
-  BalaEnemiga.cpp
-  EnemigoFinal.cpp
-  Enemy.cpp
-  Entidad.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\Entidad.cpp(5,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Juego.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\Juego.cpp(110,23): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Juego.cpp(111,20): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Juego.cpp(112,28): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Juego.cpp(132,50): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Juego.cpp(196,50): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Juego.cpp(268,25): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Juego.cpp(311,22): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-  Menu.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\Menu.cpp(9,35): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Menu.cpp(10,34): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  MenuInicio.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\MenuInicio.cpp(9,35): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\MenuInicio.cpp(10,34): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  MyForm.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\MyForm.h(48,109): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+﻿  MyForm.cpp
+D:\ALOCADA\v1-main\TrabajoFinal\MyForm.h(58,109): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
   (compilando archivo de origen "MyForm.cpp")
   
-D:\ALOCADA\v1-main\TrabajoFinal\MyForm.h(48,66): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+D:\ALOCADA\v1-main\TrabajoFinal\MyForm.h(58,66): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
   (compilando archivo de origen "MyForm.cpp")
   
-  PantallaPerder.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\PantallaPerder.cpp(9,35): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\PantallaPerder.cpp(10,34): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  Pantallas.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\Pantallas.cpp(10,35): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Pantallas.cpp(11,34): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  Player.cpp
-D:\ALOCADA\v1-main\TrabajoFinal\Player.cpp(73,39): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-D:\ALOCADA\v1-main\TrabajoFinal\Player.cpp(78,40): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  Pozo.cpp
-  Shotgun.cpp
-  Vidas.cpp
-  Generando código...
   Aliado.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   TrabajoFinal.vcxproj -> D:\ALOCADA\v1-main\x64\Debug\TrabajoFinal.exe
   "pwsh.exe" no se reconoce como un comando interno o externo,

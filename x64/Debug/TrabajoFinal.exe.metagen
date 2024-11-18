@@ -19,3 +19,6 @@ Class TrabajoFinal.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     System.Media.SoundPlayer sonidoEscopeta : Public
+    System.Media.SoundPlayer sonidoOpening : Public
+    System.Media.SoundPlayer AFHS : Public
+    System.Media.SoundPlayer Himno : Public

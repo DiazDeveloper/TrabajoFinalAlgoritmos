@@ -28,17 +28,27 @@ namespace TrabajoFinal {
 
         // Variables para el seguimiento de las teclas
         bool keyWPressed;
-        bool keyAPressed;
+        bool keyAPressed; 
         bool keySPressed;
     private: System::Windows::Forms::Timer^ TimerApoyoEscopeta;
            bool keyDPressed;
     private: System::Windows::Forms::Timer^ TimerApoyoPozos;
     private: System::Windows::Forms::Timer^ TimerApoyoBalasEnemigas;
+    private: System::Windows::Forms::Timer^ TimerApoyoCreditos;
+    private: System::Windows::Forms::Button^ BotonRegresar;
 
 
 
     public:
         SoundPlayer^ sonidoEscopeta = gcnew SoundPlayer("Images/shotgunEffect.wav");
+        SoundPlayer^ sonidoOpening = gcnew SoundPlayer("Images/opening.wav"); 
+        SoundPlayer^ AFHS = gcnew SoundPlayer("Images/AFHS.wav");
+    private: System::Windows::Forms::Timer^ ApoyoMusica;
+    public:
+
+    public:
+        SoundPlayer^ Himno = gcnew SoundPlayer("Images/Himno.wav");
+
         MyForm(void)
         {
             InitializeComponent();
@@ -74,6 +84,7 @@ namespace TrabajoFinal {
         void InitializeComponent(void)
         {
             this->components = (gcnew System::ComponentModel::Container());
+            System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
             this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
             this->button1 = (gcnew System::Windows::Forms::Button());
             this->button2 = (gcnew System::Windows::Forms::Button());
@@ -81,6 +92,9 @@ namespace TrabajoFinal {
             this->TimerApoyoEscopeta = (gcnew System::Windows::Forms::Timer(this->components));
             this->TimerApoyoPozos = (gcnew System::Windows::Forms::Timer(this->components));
             this->TimerApoyoBalasEnemigas = (gcnew System::Windows::Forms::Timer(this->components));
+            this->TimerApoyoCreditos = (gcnew System::Windows::Forms::Timer(this->components));
+            this->BotonRegresar = (gcnew System::Windows::Forms::Button());
+            this->ApoyoMusica = (gcnew System::Windows::Forms::Timer(this->components));
             this->SuspendLayout();
             // 
             // timer1
@@ -90,23 +104,22 @@ namespace TrabajoFinal {
             // 
             // button1
             // 
+            this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
             this->button1->Location = System::Drawing::Point(581, 245);
             this->button1->Name = L"button1";
-            this->button1->Size = System::Drawing::Size(308, 87);
+            this->button1->Size = System::Drawing::Size(340, 91);
             this->button1->TabIndex = 0;
-            this->button1->Text = L"button1";
             this->button1->UseVisualStyleBackColor = true;
             this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
             // 
             // button2
             // 
+            this->button2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.Image")));
             this->button2->Location = System::Drawing::Point(581, 375);
             this->button2->Name = L"button2";
-            this->button2->Size = System::Drawing::Size(308, 87);
+            this->button2->Size = System::Drawing::Size(340, 90);
             this->button2->TabIndex = 1;
-            this->button2->Text = L"button2";
             this->button2->UseVisualStyleBackColor = true;
-            this->button2->Visible = false;
             this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
             // 
             // timer2
@@ -128,11 +141,33 @@ namespace TrabajoFinal {
             this->TimerApoyoBalasEnemigas->Interval = 4000;
             this->TimerApoyoBalasEnemigas->Tick += gcnew System::EventHandler(this, &MyForm::TimerApoyoBalasEnemigas_Tick);
             // 
+            // TimerApoyoCreditos
+            // 
+            this->TimerApoyoCreditos->Tick += gcnew System::EventHandler(this, &MyForm::TimerApoyoCreditos_Tick);
+            // 
+            // BotonRegresar
+            // 
+            this->BotonRegresar->Enabled = false;
+            this->BotonRegresar->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"BotonRegresar.Image")));
+            this->BotonRegresar->Location = System::Drawing::Point(12, 12);
+            this->BotonRegresar->Name = L"BotonRegresar";
+            this->BotonRegresar->Size = System::Drawing::Size(160, 75);
+            this->BotonRegresar->TabIndex = 2;
+            this->BotonRegresar->UseVisualStyleBackColor = true;
+            this->BotonRegresar->Visible = false;
+            this->BotonRegresar->Click += gcnew System::EventHandler(this, &MyForm::BotonRegresar_Click);
+            // 
+            // ApoyoMusica
+            // 
+            this->ApoyoMusica->Interval = 1000;
+            this->ApoyoMusica->Tick += gcnew System::EventHandler(this, &MyForm::ApoyoMusica_Tick);
+            // 
             // MyForm
             // 
             this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
             this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
             this->ClientSize = System::Drawing::Size(1346, 866);
+            this->Controls->Add(this->BotonRegresar);
             this->Controls->Add(this->button2);
             this->Controls->Add(this->button1);
             this->Name = L"MyForm";
@@ -159,12 +194,21 @@ namespace TrabajoFinal {
         button2->Enabled = false;
         timer1->Enabled = false;
         button1->Visible = false;
-
+        button2->Visible = false; 
         timer2->Enabled = true;
     }
 
     private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e)
     {
+        button1->Enabled = false;
+        button2->Enabled = false;
+        timer1->Enabled = false;
+        button1->Visible = false;
+        button2->Visible = false;
+        TimerApoyoCreditos->Enabled = true;
+        BotonRegresar->Enabled = true;
+        BotonRegresar->Visible = true;
+        sonidoOpening->PlayLooping(); 
     }
 
     private: System::Void timer2_Tick(System::Object^ sender, System::EventArgs^ e)
@@ -175,6 +219,7 @@ namespace TrabajoFinal {
             juego->mostrar(buffer->Graphics);
             juego->mover(buffer->Graphics);
             buffer->Render(canvas);
+
         }
         if (juego->getEstaEnPozo())
         {
@@ -184,10 +229,11 @@ namespace TrabajoFinal {
         if (juego->getNumeroEnemigos() == 0)
         {
             TimerApoyoBalasEnemigas->Enabled = true;
+            
         }
 
         if (juego->getNumeroDePozos() == 0)
-        {
+        {    
             timer2->Enabled = false;
             TimerApoyoBalasEnemigas->Enabled = false;
             TimerApoyoPozos->Enabled = false;
@@ -195,6 +241,12 @@ namespace TrabajoFinal {
             buffer->Graphics->Clear(Color::White);
             juego->mostrarGanaste(buffer->Graphics);  
             buffer->Render(canvas); 
+
+            sonidoOpening->Stop(); 
+            AFHS->Stop();     
+            sonidoEscopeta->Stop();  
+            Himno->Play(); 
+            ApoyoMusica->Enabled = true;
         }
 
         if (juego->getVidas() <= 0)
@@ -207,6 +259,7 @@ namespace TrabajoFinal {
             buffer->Graphics->Clear(Color::White); 
             juego->mostrarPerdiste(buffer->Graphics); 
             buffer->Render(canvas); 
+            AFHS->PlayLooping();  
         }
 
         //////////////// agregado
@@ -288,5 +341,27 @@ namespace TrabajoFinal {
     { 
         juego->disparoEnemigo();
     } 
+private: System::Void TimerApoyoCreditos_Tick(System::Object^ sender, System::EventArgs^ e) 
+    {
+        juego->mostrarCreditos(canvas);
+    }
+private: System::Void BotonRegresar_Click(System::Object^ sender, System::EventArgs^ e) 
+    {
+         button1->Enabled = true;
+         button2->Enabled = true;
+         timer1->Enabled = true;
+         button1->Visible = true;
+         button2->Visible = true;
+         TimerApoyoCreditos->Enabled = false;
+         BotonRegresar->Enabled = false;
+         BotonRegresar->Visible = false;
+         sonidoOpening->Stop();  
+    }
+private: System::Void ApoyoMusica_Tick(System::Object^ sender, System::EventArgs^ e) {
+    if (Himno->IsLoadCompleted)
+    {
+        Himno->PlayLooping();
+    }
+}
 };
 }
